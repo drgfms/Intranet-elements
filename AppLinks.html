@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <style type="text/css">
+ ol
+  	{
+  		margin: 0;
+  		padding: 0;
+  	}
+  	
+  	table td,table th { padding: 0; }
+  	
+  	.c6
+  	{
+  		border-right-style: solid;
+  		padding: 5pt 5pt 5pt 5pt;
+  		border-bottom-color: #000000;
+  		border-top-width: 0pt;
+  		border-right-width: 0pt;
+  		border-left-color: #000000;
+  		vertical-align: top;
+  		border-right-color: #000000;
+  		border-left-width: 0pt;
+  		border-top-style: solid;
+  		border-left-style: solid;
+  		border-bottom-width: 0pt;
+  		width: 61.5pt;
+  		border-top-color: #000000;
+  		border-bottom-style: solid;
+  	}
+  	
+  	.c7
+  	{
+  		border-right-style: solid;
+  		padding: 5pt 5pt 5pt 5pt;
+  		border-bottom-color: #000000;
+  		border-top-width: 0pt;
+  		border-right-width: 0pt;
+  		border-left-color: #000000;
+  		vertical-align: top;
+  		border-right-color: #000000;
+  		border-left-width: 0pt;
+  		border-top-style: solid;
+  		border-left-style: solid;
+  		border-bottom-width: 0pt;
+  		width: 88.8pt;
+  		border-top-color: #000000;
+  		border-bottom-style: solid;
+  	}
+  	
+  	.c18
+  	{
+  		border-right-style: solid;
+  		padding: 5pt 5pt 5pt 5pt;
+  		border-bottom-color: #000000;
+  		border-top-width: 0pt;
+  		border-right-width: 0pt;
+  		border-left-color: #000000;
+  		vertical-align: top;
+  		border-right-color: #000000;
+  		border-left-width: 0pt;
+  		border-top-style: solid;
+  		border-left-style: solid;
+  		border-bottom-width: 0pt;
+  		width: 70.5pt;
+  		border-top-color: #000000;
+  		border-bottom-style: solid;
+  	}
+  	
+  	.c11
+  	{
+  		border-right-style: solid;
+  		border-bottom-color: #000000;
+  		border-top-width: 0pt;
+  		border-right-width: 0pt;
+  		border-left-color: #000000;
+  		vertical-align: top;
+  		border-right-color: #000000;
+  		border-left-width: 0pt;
+  		border-top-style: solid;
+  		border-left-style: solid;
+  		border-bottom-width: 0pt;
+  		width: 88.8pt;
+  		border-top-color: #000000;
+  		border-bottom-style: solid;
+  	}
+  	
+  	.c20
+  	{
+  		border-right-style: solid;
+  		border-bottom-color: #000000;
+  		border-top-width: 0pt;
+  		border-right-width: 0pt;
+  		border-left-color: #000000;
+  		vertical-align: top;
+  		border-right-color: #000000;
+  		border-left-width: 0pt;
+  		border-top-style: solid;
+  		border-left-style: solid;
+  		border-bottom-width: 0pt;
+  		width: 70.5pt;
+  		border-top-color: #000000;
+  		border-bottom-style: solid;
+  	}
+  	
+  	.c9
+  	{
+  		padding-top: 9pt;
+  		padding-bottom: 0pt;
+  		line-height: 1.6667;
+  		orphans: 2;
+  		widows: 2;
+  		text-align: left;
+  		height: 11pt;
+  	}
+  	
+  	.c17
+  	{
+  		color: #212121;
+  		font-weight: 400;
+  		text-decoration: none;
+  		vertical-align: baseline;
+  		font-size: 11pt;
+  		font-family: "Arial";
+  		font-style: normal;
+  	}
+  	
+  	.c4
+  	{
+  		color: #212121;
+  		font-weight: 400;
+  		text-decoration: none;
+  		vertical-align: baseline;
+  		font-size: 7pt;
+  		font-family: "Arial";
+  		font-style: normal;
+  	}
+  	
+  	.c5
+  	{
+  		padding-top: 9pt;
+  		padding-bottom: 0pt;
+  		line-height: 1.6667;
+  		orphans: 2;
+  		widows: 2;
+  		text-align: center;
+  	}
+  	
+  	.c8
+  	{
+  		padding-top: 0pt;
+  		padding-bottom: 0pt;
+  		line-height: 1.15;
+  		orphans: 2;
+  		widows: 2;
+  		text-align: center;
+  	}
+  	
+  	.c1
+  	{
+  		padding-top: 0pt;
+  		padding-bottom: 0pt;
+  		line-height: 1.6667;
+  		orphans: 2;
+  		widows: 2;
+  		text-align: center;
+  	}
+  	
+  	.c19
+  	{
+  		padding-top: 0pt;
+  		padding-bottom: 0pt;
+  		line-height: 1.15;
+  		orphans: 2;
+  		widows: 2;
+  		text-align: left;
+  	}
+  	
+  	.c15
+  	{
+  		padding-top: 0pt;
+  		padding-bottom: 0pt;
+  		line-height: 1.0;
+  		text-align: center;
+  	}
+  	
+  	.c16
+  	{
+  		border-spacing: 0;
+  		border-collapse: collapse;
+  		margin-right: auto;
+  	}
+  	
+  	.c2
+  	{
+  		background-color: #ffffff;
+  		max-width: 576pt;
+  	}
+  	
+  	.c12
+  	{
+  		text-decoration-skip-ink: none;
+  		-webkit-text-decoration-skip: none;
+  		text-decoration: underline;
+  	}
+  	
+  	.c0
+  	{
+  		color: inherit;
+  		text-decoration: inherit;
+  	}
+  	
+  	.c3
+  	{
+  		color: #1155cc;
+  		font-size: 7pt;
+  	}
+  	
+  	.c21 { margin-right: 0.8pt; }
+  	.c13 { height: 0pt; }
+  	.c14 { margin-left: -49.5pt; }
+  	.c10 { height: 11pt; }
+  	
+  	.title
+  	{
+  		padding-top: 0pt;
+  		color: #000000;
+  		font-size: 26pt;
+  		padding-bottom: 3pt;
+  		font-family: "Arial";
+  		line-height: 1.15;
+  		page-break-after: avoid;
+  		orphans: 2;
+  		widows: 2;
+  		text-align: left;
+  	}
+  	
+  	.subtitle
+  	{
+  		padding-top: 0pt;
+  		color: #666666;
+  		font-size: 15pt;
+  		padding-bottom: 16pt;
+  		font-family: "Arial";
+  		line-height: 1.15;
+  		page-break-after: avoid;
+  		orphans: 2;
+  		widows: 2;
+  		text-align: left;
+  	}
+  	
+  	li
+  	{
+  		color: #000000;
+  		font-size: 11pt;
+  		font-family: "Arial";
+  	}
+  	
+  	p
+  	{
+  		margin: 0;
+  		color: #000000;
+  		font-size: 11pt;
+  		font-family: "Arial";
+  	}
+  	
+  	h1
+  	{
+  		padding-top: 20pt;
+  		color: #000000;
+  		font-size: 20pt;
+  		padding-bottom: 6pt;
+  		font-family: "Arial";
+  		line-height: 1.15;
+  		page-break-after: avoid;
+  		orphans: 2;
+  		widows: 2;
+  		text-align: left;
+  	}
+  	
+  	h2
+  	{
+  		padding-top: 18pt;
+  		color: #000000;
+  		font-size: 16pt;
+  		padding-bottom: 6pt;
+  		font-family: "Arial";
+  		line-height: 1.15;
+  		page-break-after: avoid;
+  		orphans: 2;
+  		widows: 2;
+  		text-align: left;
+  	}
+  	
+  	h3
+  	{
+  		padding-top: 16pt;
+  		color: #434343;
+  		font-size: 14pt;
+  		padding-bottom: 4pt;
+  		font-family: "Arial";
+  		line-height: 1.15;
+  		page-break-after: avoid;
+  		orphans: 2;
+  		widows: 2;
+  		text-align: left;
+  	}
+  	
+  	h4
+  	{
+  		padding-top: 14pt;
+  		color: #666666;
+  		font-size: 12pt;
+  		padding-bottom: 4pt;
+  		font-family: "Arial";
+  		line-height: 1.15;
+  		page-break-after: avoid;
+  		orphans: 2;
+  		widows: 2;
+  		text-align: left;
+  	}
+  	
+  	h5
+  	{
+  		padding-top: 12pt;
+  		color: #666666;
+  		font-size: 11pt;
+  		padding-bottom: 4pt;
+  		font-family: "Arial";
+  		line-height: 1.15;
+  		page-break-after: avoid;
+  		orphans: 2;
+  		widows: 2;
+  		text-align: left;
+  	}
+  	
+  	h6
+  	{
+  		padding-top: 12pt;
+  		color: #666666;
+  		font-size: 11pt;
+  		padding-bottom: 4pt;
+  		font-family: "Arial";
+  		line-height: 1.15;
+  		page-break-after: avoid;
+  		font-style: italic;
+  		orphans: 2;
+  		widows: 2;
+  		text-align: left;
+  	}
+
+  </style>
+  <title></title>
+  <style type="text/css">
+ span.c32
+  	{
+  		overflow: hidden;
+  		display: inline-block;
+  		margin: 0.00px 0.00px;
+  		border: 0.00px solid #000000;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  		width: 48.50px;
+  		height: 48.50px;
+  	}
+  	
+  	img.c31
+  	{
+  		width: 48.50px;
+  		height: 48.50px;
+  		margin-left: 0.00px;
+  		margin-top: 0.00px;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  	}
+  	
+  	span.c30
+  	{
+  		overflow: hidden;
+  		display: inline-block;
+  		margin: 0.00px 0.00px;
+  		border: 0.00px solid #000000;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  		width: 55.00px;
+  		height: 55.00px;
+  	}
+  	
+  	img.c29
+  	{
+  		width: 55.00px;
+  		height: 55.00px;
+  		margin-left: 0.00px;
+  		margin-top: 0.00px;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  	}
+  	
+  	span.c28
+  	{
+  		overflow: hidden;
+  		display: inline-block;
+  		margin: 0.00px 0.00px;
+  		border: 0.00px solid #000000;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  		width: 114.46px;
+  		height: 74.06px;
+  	}
+  	
+  	img.c27
+  	{
+  		width: 114.46px;
+  		height: 74.06px;
+  		margin-left: 0.00px;
+  		margin-top: 0.00px;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  	}
+  	
+  	span.c26
+  	{
+  		overflow: hidden;
+  		display: inline-block;
+  		margin: 0.00px 0.00px;
+  		border: 0.00px solid #000000;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  		width: 75.00px;
+  		height: 74.67px;
+  	}
+  	
+  	img.c25
+  	{
+  		width: 75.00px;
+  		height: 74.67px;
+  		margin-left: 0.00px;
+  		margin-top: 0.00px;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  	}
+  	
+  	span.c24
+  	{
+  		overflow: hidden;
+  		display: inline-block;
+  		margin: 0.00px 0.00px;
+  		border: 0.00px solid #000000;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  		width: 70.50px;
+  		height: 70.50px;
+  	}
+  	
+  	img.c23
+  	{
+  		width: 70.50px;
+  		height: 70.50px;
+  		margin-left: 0.00px;
+  		margin-top: 0.00px;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  	}
+  	
+  	span.c22
+  	{
+  		overflow: hidden;
+  		display: inline-block;
+  		margin: 0.00px 0.00px;
+  		border: 0.00px solid #000000;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  		width: 69.06px;
+  		height: 69.06px;
+  	}
+  	
+  	img.c21
+  	{
+  		width: 69.06px;
+  		height: 69.06px;
+  		margin-left: 0.00px;
+  		margin-top: 0.00px;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  	}
+  	
+  	span.c20
+  	{
+  		overflow: hidden;
+  		display: inline-block;
+  		margin: 0.00px 0.00px;
+  		border: 0.00px solid #000000;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  		width: 67.50px;
+  		height: 67.50px;
+  	}
+  	
+  	img.c19
+  	{
+  		width: 67.50px;
+  		height: 67.50px;
+  		margin-left: 0.00px;
+  		margin-top: 0.00px;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  	}
+  	
+  	span.c18
+  	{
+  		overflow: hidden;
+  		display: inline-block;
+  		margin: 0.00px 0.00px;
+  		border: 0.00px solid #000000;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  		width: 59.85px;
+  		height: 68.06px;
+  	}
+  	
+  	img.c17
+  	{
+  		width: 59.85px;
+  		height: 68.06px;
+  		margin-left: 0.00px;
+  		margin-top: 0.00px;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  	}
+  	
+  	span.c16
+  	{
+  		overflow: hidden;
+  		display: inline-block;
+  		margin: 0.00px 0.00px;
+  		border: 0.00px solid #000000;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  		width: 68.00px;
+  		height: 68.00px;
+  	}
+  	
+  	img.c15
+  	{
+  		width: 68.00px;
+  		height: 68.00px;
+  		margin-left: 0.00px;
+  		margin-top: 0.00px;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  	}
+  	
+  	span.c14
+  	{
+  		overflow: hidden;
+  		display: inline-block;
+  		margin: 0.00px 0.00px;
+  		border: 0.00px solid #000000;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  		width: 52.10px;
+  		height: 52.10px;
+  	}
+  	
+  	img.c13
+  	{
+  		width: 52.10px;
+  		height: 52.10px;
+  		margin-left: 0.00px;
+  		margin-top: 0.00px;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  	}
+  	
+  	span.c12
+  	{
+  		overflow: hidden;
+  		display: inline-block;
+  		margin: 0.00px 0.00px;
+  		border: 0.00px solid #000000;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  		width: 54.10px;
+  		height: 54.10px;
+  	}
+  	
+  	img.c11
+  	{
+  		width: 54.10px;
+  		height: 54.10px;
+  		margin-left: 0.00px;
+  		margin-top: 0.00px;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  	}
+  	
+  	span.c10
+  	{
+  		overflow: hidden;
+  		display: inline-block;
+  		margin: 0.00px 0.00px;
+  		border: 0.00px solid #000000;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  		width: 65.00px;
+  		height: 65.00px;
+  	}
+  	
+  	img.c9
+  	{
+  		width: 65.00px;
+  		height: 65.00px;
+  		margin-left: 0.00px;
+  		margin-top: 0.00px;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  	}
+  	
+  	span.c8
+  	{
+  		
+  		display: inline-block;
+  		margin: 0.00px 0.00px;
+  		border: 0.00px solid #000000;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  		width: 58.90px;
+  		height: 58.90px;
+  	}
+  	
+  	img.c7
+  	{
+  		width: 58.90px;
+  		height: 58.90px;
+  		margin-left: 0.00px;
+  		margin-top: 0.00px;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  	}
+  	
+  	span.c6
+  	{
+  		display: inline-block;
+  		margin: 0.00px 0.00px;
+  		border: 0.00px solid #000000;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  		width: 62.50px;
+  		height: 62.50px;
+  	}
+  	
+  	img.c5
+  	{
+  		width: 62.50px;
+  		height: 62.50px;
+  		margin-left: 0.00px;
+  		margin-top: 0.00px;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  	}
+  	
+  	span.c4
+  	{
+  		overflow: hidden;
+  		display: inline-block;
+  		margin: 0.00px 0.00px;
+  		border: 0.00px solid #000000;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  		width: 63.50px;
+  		height: 63.50px;
+  	}
+  	
+  	img.c3
+  	{
+  		width: 63.50px;
+  		height: 63.50px;
+  		margin-left: 0.00px;
+  		margin-top: 0.00px;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  	}
+  	
+  	span.c2
+  	{
+  		display: inline-block;
+  		margin: 0.00px 0.00px;
+  		border: 0.00px solid #000000;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  		width: 63.90px;
+  		height: 63.90px;
+  	}
+  	
+  	img.c1
+  	{
+  		width: 63.90px;
+  		height: 63.90px;
+  		margin-left: 0.00px;
+  		margin-top: 0.00px;
+  		transform: rotate(0.00rad) translateZ(0px);
+  		-webkit-transform: rotate(0.00rad) translateZ(0px);
+  	}
+
+  </style>
+</head>
+<body>
+  <div class="c2">
+    <p class="c8 c10 c14"></p><a id="t.76243101bc44a7b834bb48b743b5e19b9e257e0f"></a><a id="t.0"></a>
+    <table class="c16">
+      <tbody>
+        <tr class="c13">
+          <td class="c6" colspan="1" rowspan="1">
+            <span class="c2"><img alt="" src="images/image9.png" class="c1" title=""></span><span class="c3"><a class="c0" target="_blank"  href="https://www.google.com/url?q=https://static.practicefusion.com&amp;sa=D&amp;ust=1603646860159000&amp;usg=AOvVaw1CtjVx_bripDlWSnIMs4bA"> Practice Fusion</a></span>
+          </td>
+          <td class="c18" colspan="1" rowspan="1">
+            <p class="c1"><span class="c4"><img alt="" src="images/image2.png" class="c3" title=""></span><span class="c3"><a class="c0" target="_blank"  href="https://www.google.com/url?q=https://www.myupdox.com/ui/html/oauth2/practicefusion.html&amp;sa=D&amp;ust=1603646860160000&amp;usg=AOvVaw1QnFwE7yLn5gRXzGzZQ3FL">Updox</a></span></p>
+          </td>
+          <td class="c7" colspan="1" rowspan="1">
+            <p class="c1"><span class="c6"><img alt="" src="images/image8.png" class="c5" title=""></span><span class="c3"><a class="c0" target="_blank"  href="https://www.google.com/url?q=https://service.ringcentral.com&amp;sa=D&amp;ust=1603646860160000&amp;usg=AOvVaw2QTLrhkJ3jOzSRJjyFf4z6">RingCentral</a></span></p>
+          </td>
+          <td class="c11" colspan="1" rowspan="1">
+            <p class="c5"><span class="c8"><img alt="" src="images/image4.jpg" class="c7" title=""></span><span class="c3 c12"><a class="c0" target="_blank"  href="https://www.google.com/url?q=https://provider.qtcm.com&amp;sa=D&amp;ust=1603646860161000&amp;usg=AOvVaw1Rb1j28g5AuwXUjLR0vf2G"><br>
+            Portal</a></span></p>
+          </td>
+          <td class="c7" colspan="1" rowspan="1">
+            <p class="c1"><span class="c10"><img alt="" src="images/image7.png" class="c9" title=""></span></p>
+            <p class="c1"><span class="c3"><a class="c0" target="_blank"  href="https://www.google.com/url?q=https://providers.logisticshealth.com/logon.aspx?ReturnUrl%3D%252f&amp;sa=D&amp;ust=1603646860161000&amp;usg=AOvVaw1Ysa5m0asGJ5QHaJYr3pzq">Portal</a></span></p>
+          </td>
+          <td class="c7" colspan="1" rowspan="1">
+            <p class="c5"><span class="c12"><img alt="" src="images/image12.png" class="c11" title=""></span><span class="c3"><a class="c0" target="_blank"  href="https://www.google.com/url?q=https://mdoffice.sentara.com/&amp;sa=D&amp;ust=1603646860162000&amp;usg=AOvVaw0jSwwgBN87mjVXP7sywGV-"><br>
+            MD Office</a></span></p>
+          </td>
+          <td class="c7" colspan="1" rowspan="1">
+            <p class="c5 c21"><span class="c14"><img alt="" src="images/image14.png" class="c13" title=""></span><span class="c3"><a class="c0" target="_blank"  href="https://www.google.com/url?q=https://apps2.sentara.com/secured/citrixwi/Citrix.aspx?AppID%3DCitrix.MPS.App.eCareCXA.Production%2520Hyperspace%2520-%2520PRD&amp;sa=D&amp;ust=1603646860162000&amp;usg=AOvVaw28glbh1Mo1a0E4OVB6OM5b"><br>
+            Sentara Epic</a></span></p>
+          </td>
+        </tr>
+        <tr class="c13">
+          <td class="c6" colspan="1" rowspan="1">
+            <p class="c1"><span class="c16"><img alt="" src="images/image1.png" class="c15" title=""></span><span class="c3"><a class="c0" target="_blank"  href="https://www.google.com/url?q=https://gmail.com/&amp;sa=D&amp;ust=1603646860163000&amp;usg=AOvVaw3mlMqrp2BeDPEIEYwBS8Ed">Gmail</a></span></p>
+          </td>
+          <td class="c18" colspan="1" rowspan="1">
+            <p class="c1"><span class="c18"><img alt="" src="images/image11.png" class="c17" title=""></span><span class="c3"><a class="c0" target="_blank"  href="https://www.google.com/url?q=https://hangouts.google.com&amp;sa=D&amp;ust=1603646860163000&amp;usg=AOvVaw1sWK-Bq-KN4Ap5NOUU6lDT">Hangouts</a></span></p>
+          </td>
+          <td class="c7" colspan="1" rowspan="1">
+            <p class="c1"><span class="c20"><img alt="" src="images/image17.png" class="c19" title=""></span><span class="c3"><a class="c0" target="_blank"  href="https://www.google.com/url?q=https://docs.google.com&amp;sa=D&amp;ust=1603646860164000&amp;usg=AOvVaw38slzYHbimFbhIujbkm2sz"><br>
+            Docs</a></span></p>
+          </td>
+          <td class="c7" colspan="1" rowspan="1">
+            <p class="c1"><span class="c22"><img alt="" src="images/image13.png" class="c21" title=""></span><span class="c3"><a class="c0" target="_blank"  href="https://www.google.com/url?q=http://drive.google.com&amp;sa=D&amp;ust=1603646860164000&amp;usg=AOvVaw3Y7bWpCwfJrub4hfy5tMY0"><br>
+            Drive</a></span></p>
+          </td>
+          <td class="c7" colspan="1" rowspan="1">
+            <p class="c1"><span class="c24"><img alt="" src="images/image10.png" class="c23" title=""></span><span class="c3"><a class="c0" target="_blank"  href="https://www.google.com/url?q=https://drive.google.com/open?id%3D1Oi_1y2gym0drB4PTnCCJMyI82sddmXsv&amp;sa=D&amp;ust=1603646860165000&amp;usg=AOvVaw3DY6LRcm1HaV7R9MZzsjoO">DRGFMS Folder</a></span></p>
+          </td>
+          <td class="c7" colspan="1" rowspan="1">
+            <p class="c8"><span class="c26"><img alt="" src="images/image16.png" class="c25" title=""></span><span class="c3"><a class="c0" target="_blank"  href="https://www.google.com/url?q=https://www.pdffiller.com/en/forms/dashboard&amp;sa=D&amp;ust=1603646860165000&amp;usg=AOvVaw2_6FRzpvvARoGZvcsrrAOS"><br>
+            PDF Filler</a></span></p>
+          </td>
+          <td class="c7" colspan="1" rowspan="1">
+            <p class="c8"><span class="c28"><img alt="" src="images/image6.png" class="c27" title=""></span><span class="c3"><a class="c0" target="_blank"  href="https://www.google.com/url?q=https://ocr.space/&amp;sa=D&amp;ust=1603646860166000&amp;usg=AOvVaw1T5ZvG-3eAzlW-8T-gNzOh">OCR.space</a></span></p>
+          </td>
+        </tr>
+        <tr class="c13">
+          <td class="c6" colspan="1" rowspan="1">
+            <p class="c8"><span class="c16"><img alt="" src="images/image3.png" class="c15" title=""></span><span class="c3"><a class="c0" target="_blank"  href="https://www.google.com/url?q=https://www.rapidtables.com/&amp;sa=D&amp;ust=1603646860166000&amp;usg=AOvVaw1YvfDSFyw3vAY9ablmntG7"><br>
+            rapidtables.com</a></span></p>
+          </td>
+          <td class="c20" colspan="1" rowspan="1">
+            <p class="c5"><span class="c30"><img alt="" src="images/image5.png" class="c29" title=""></span><span class="c3"><a class="c0" target="_blank"  href="https://www.google.com/url?q=https://northcarolina.pmpaware.net/login&amp;sa=D&amp;ust=1603646860167000&amp;usg=AOvVaw1Uz2DqxmNhCHJALQ_U891U"><br>
+            PMP Aware</a></span></p>
+          </td>
+          <td class="c7" colspan="1" rowspan="1">
+            <p class="c5"><span class="c32"><img alt="" src="images/image15.png" class="c31" title=""></span><span class="c3"><a class="c0" target="_blank"  href="https://www.google.com/url?q=https://www.labcorp.com/test-menu/search&amp;sa=D&amp;ust=1603646860167000&amp;usg=AOvVaw3L5KzneNO_kDrb1jURMv_C"><br>
+            Labcorp Test Menu</a></span></p>
+          </td>
+          <td class="c7" colspan="1" rowspan="1">
+            <p class="c5"><span class="c32"><img alt="" src="images/image15.png" class="c31" title=""></span><span class="c3"><a class="c0" target="_blank"  href="https://www.google.com/url?q=https://www.labcorpbeacon.com/&amp;sa=D&amp;ust=1603646860168000&amp;usg=AOvVaw3Rz4DS1tl3qnv6UDf2eXjv"><br>
+            Labcorp Beacon (results portal)</a></span></p>
+            <p class="c15 c10"></p>
+          </td>
+          <td class="c7" colspan="1" rowspan="1">
+            <p class="c9"></p>
+          </td>
+          <td class="c7" colspan="1" rowspan="1">
+            <p class="c8 c10"></p>
+          </td>
+          <td class="c7" colspan="1" rowspan="1">
+            <p class="c10 c15"></p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="c10 c19"></p>
+  </div>
+</body>
+</html>

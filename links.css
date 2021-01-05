@@ -1,0 +1,49 @@
+body {
+	font-family: "arial";
+	font-size:10px;
+	background-color: white;
+}
+
+ul {
+	margin: 0px 0px 0px 5px;
+	padding: 0px 0px 0px 5px;
+}
+
+li
+{
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width:64px;
+  height:75px;
+  font-size: 10px;
+  padding: 15px;
+  margin: 0px;
+}
+
+li.heading {
+  height:5px;
+  font-size: 20px;
+}
+.appname {
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.description {
+    margin: 0px;
+	padding: 0px;
+	color:green;
+}
+a {
+	text-decoration: none;
+	color:black;
+}
+img {
+	width:48px;
+	height:48px;
+	padding:5px;
+}
+.attribution { color: gray; }
+div.attribution {width=100%;text-align: center;}
