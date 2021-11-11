@@ -2,6 +2,7 @@ body {
 	font-family: "arial";
 	font-size:10px;
 	background-color: white;
+
 }
 
 ul {
@@ -47,3 +48,12 @@ img {
 }
 .attribution { color: gray; }
 div.attribution {width=100%;text-align: center;}
+
+iframe
+{
+	width: 220px;
+	min-height: 400px;
+	float: right;
+	border: 0;
+	
+}
