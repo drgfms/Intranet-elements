@@ -4,8 +4,8 @@
 <dict>
 	<key>EmbeddedEditorHidden:thomasgiguiere</key>
 	<false/>
-	<key>ExpandedEditorWidth:thomasgiguiere:displays([(0, 0), (2048, 1152)])</key>
-	<integer>646</integer>
+	<key>ExpandedEditorWidth:thomasgiguiere:displays([(0, 0), (2560, 1440)]:[(-1920, 580), (1920, 1080)])</key>
+	<integer>2357</integer>
 	<key>ExpandedItems:thomasgiguiere</key>
 	<array/>
 	<key>FileFilterMode:thomasgiguiere</key>
@@ -55,7 +55,7 @@
 	<key>OpenDocumentsExpanded</key>
 	<true/>
 	<key>OpenDocumentsSplitterProportion</key>
-	<real>0.85807656395891696</real>
+	<real>0.81111111111111112</real>
 	<key>ProjectItemsExpanded</key>
 	<true/>
 	<key>ProjectViewVisible</key>
@@ -64,7 +64,7 @@
 	<array>
 		<dict>
 			<key>Date</key>
-			<date>2021-09-11T03:56:05Z</date>
+			<date>2021-11-11T03:21:12Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -110,7 +110,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2021-09-11T03:56:05Z</date>
+			<date>2021-11-11T03:21:12Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -156,7 +156,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2021-09-11T03:56:05Z</date>
+			<date>2021-11-11T03:21:12Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -204,7 +204,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2021-09-11T03:56:05Z</date>
+			<date>2021-11-11T03:21:12Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -260,8 +260,8 @@
 	<key>ToolbarVisible:thomasgiguiere</key>
 	<false/>
 	<key>ViewSplitterPosition:thomasgiguiere</key>
-	<real>0.23910482227802277</real>
-	<key>WindowFrame:thomasgiguiere:displays([(0, 0), (2048, 1152)])</key>
-	<string>rect(180,1130,1251,1979)</string>
+	<real>0.079296872019767761</real>
+	<key>WindowFrame:thomasgiguiere:displays([(0, 0), (2560, 1440)]:[(-1920, 580), (1920, 1080)])</key>
+	<string>rect(81,28,1440,877)</string>
 </dict>
 </plist>
