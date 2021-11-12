@@ -18,7 +18,7 @@ li
   width:64px;
   height:75px;
   font-size: 10px;
-  padding: 40px;
+  padding: 20px;
   margin: 0px;
 }
 
@@ -49,11 +49,26 @@ img {
 .attribution { color: gray; }
 div.attribution {width=100%;text-align: center;}
 
-iframe
-{
+.widget {
 	width: 220px;
-	min-height: 400px;
+	height: 400px;
+}
+
+#calculator
+{
+
+	top: 400px;
+	Left: 400px;
 	float: right;
 	border: 0;
 	
-}
+} 
+
+#notepad
+{
+
+	border: 0;
+	height: 360px;
+	width: 100%;
+	
+} 
