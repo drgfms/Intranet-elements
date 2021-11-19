@@ -1,11 +1,5 @@
 $(document).ready(function () {
-	const welcomeText = `This is a simple notepad to keep notes you need to jot while on the phone, etc. Be sure to copy and paste to a more secure spot!!
-
-	CAUTION: Since the app uses the browser's localStorage to store your notes, 
-	it's recommended that you take backup of your notes more often using the 
-	"Download Notes" button or by pressing "Ctrl/Cmd + S" keys.
-
-	** Start writing your notes **`;
+	const welcomeText = '** Temporary note pad here **`;
 
 	const darkmodeText = 'Enable dark mode';
 	const lightmodeText = 'Enable light mode';
